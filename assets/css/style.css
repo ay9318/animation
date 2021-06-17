@@ -1,0 +1,15 @@
+@font-face {
+	font-family: 'S-CoreDream-9Black';
+	src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-9Black.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+
+/* 2021.06.17 start */
+#container {width: 100vw; height: 100vh; overflow: hidden;}
+.inner {max-width: 1440px; margin: 0 auto; padding: 0 20px; display: flex; align-items: center; justify-content: space-around; height: 100%;}
+.left_content h1 {font-family: 'S-CoreDream-9Black'; font-size: 130px;}
+.left_content p {font-family: 'Jua', sans-serif; font-size: 60px; font-weight: bold;}
+.right_content {height: 100% !important; }
+.right_content .box {background: #fff; border-radius: 10px; box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.08);}

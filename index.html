@@ -5,8 +5,34 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>ANIMATION</title>
+
+	<link rel="stylesheet" href="assets/css/style.css">
+	<link rel="stylesheet" href="assets/css/reset.css">
+	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 </head>
 <body>
-	<h1>UGLY SMITH <br>ANIMATION</h1>
+	<div id="container">
+		<div class="inner">
+			<div class="title left_content">
+				<h1>UGLY SMITH <br>ANIMATION</h1>
+				<p>Animation Library</p>
+			</div>
+			<div class="right_content swiper-container">
+				<div class="swiper-wrapper">
+					<div class="box swiper-slide">mouse hover</div>
+					<div class="box swiper-slide">button effect</div>
+					<div class="box swiper-slide">reveal effect</div>
+					<div class="box swiper-slide">etc</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+	<script>
+		var swiper = new Swiper(".right_content.swiper-container", {
+			direction: "vertical",
+			autoHeight: true,
+		})
+	</script>
 </body>
 </html>
